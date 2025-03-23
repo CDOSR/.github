@@ -1,6 +1,6 @@
 # CoderDojo Oradea Space Robotics
 
-<img src="../assets/images/logo.png" alt="CoderDojo Oradea Space Robotics Logo" width="200"/>
+<img src="../assets/images/logo.png" alt="CoderDojo Oradea Space Robotics Logo" width="100"/>
 
 ## Overview
 
