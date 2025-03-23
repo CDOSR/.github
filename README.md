@@ -1,166 +1,135 @@
-# CoderDojo Oradea Space Robotics
+# CoderDojo Oradea Space Robotics - Organization Documentation
 
-<img src="assets/images/logo.png" alt="CoderDojo Oradea Space Robotics Logo" width="200"/>
+<img src="assets/images/logo.png" alt="CoderDojo Oradea Space Robotics Logo" width="150"/>
 
-## Overview
+This repository contains organization-wide documentation, templates, and configuration for all CoderDojo Oradea Space Robotics GitHub projects. It serves as a central location for standardization and resources across all our repositories.
 
-Welcome to the CoderDojo Oradea Space Robotics project! This repository contains resources, code, and documentation for our space robotics program designed to introduce young minds to the exciting world of robotics with a focus on space exploration applications.
+## How We Use GitHub
 
-<p align="center">
-  <img src="https://img.shields.io/badge/CanSat-Competition-blue" alt="CanSat Competition"/>
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License"/>
-  <img src="https://img.shields.io/badge/Location-Oradea,%20Romania-orange" alt="Oradea, Romania"/>
-</p>
+Our organization uses GitHub for:
 
-## Table of Contents
+1. **Version Control**: All software, hardware designs, and documentation use Git for version tracking
+2. **Project Management**: We use Issues and Projects to track tasks and deadlines
+3. **Documentation**: Technical guides, design documents, and competition deliverables
+4. **Collaboration**: Team members contribute and review each other's work through pull requests
+5. **Knowledge Sharing**: Historical record of design decisions and technical approaches
 
-- [About](#about)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Achievements](#achievements)
-- [Contributing](#contributing)
-- [Community](#community)
-- [License](#license)
-- [Contact](#contact)
+### Repository Types
 
-## About
+We maintain several types of repositories:
 
-CoderDojo Oradea Space Robotics is an educational initiative based in Oradea, Romania, that aims to inspire and educate young people about space science, programming, and satellite technology. Our program currently focuses on CanSat competitions - where teams design, build, and launch small satellite prototypes the size of a soda can that simulate real satellite missions.
+- **Competition Repositories**: One repository per annual competition (e.g., CanSat2024)
+- **Template Repositories**: Reusable templates for documentation and code
+- **Learning Repositories**: Training resources for new team members
+- **Configuration Repositories**: Organization-wide configuration like this one
 
-### Our Mission
+## Guidelines for Team Members
 
-To empower the next generation of space engineers and scientists by providing hands-on experience with CanSat development, data collection, and analysis in an accessible, engaging, and collaborative environment.
+### Getting Started
 
-### What is a CanSat?
+1. **Account Setup**:
+   - Create a GitHub account using your personal email
+   - Enable 2FA (two-factor authentication)
+   - Share your username with the team lead to get added to the organization
 
-A CanSat is a simulation of a real satellite integrated within the volume and shape of a soft drink can. The challenge for students is to fit all the major subsystems found in a satellite, such as power, sensors, and communications, into this minimal volume. The CanSat is then launched to an altitude of about one kilometer and deployed from a rocket, drone, or balloon, after which it carries out its mission as it descends back to Earth.
+2. **Local Environment**:
+   - Install Git on your computer
+   - Configure Git with your name and email:
+     ```bash
+     git config --global user.name "Your Name"
+     git config --global user.email "your.email@example.com"
+     ```
+   - Clone the relevant repositories:
+     ```bash
+     git clone https://github.com/CoderDojoOradeaSpaceRobotics/CanSat2025.git
+     ```
 
-## Getting Started
+### Workflow
 
-### Prerequisites
+1. **Branches**:
+   - `main` - Stable, production-ready code
+   - `develop` - Integration branch for ongoing development
+   - `feature/feature-name` - For new features
+   - `fix/bug-name` - For bug fixes
 
-- Basic understanding of programming concepts
-- Familiarity with microcontrollers (helpful but not required):
-  - Arduino
-  - ESP32
-  - STM32
-  - Raspberry Pi
-- Interest in electronics, sensors, and data collection
-- Enthusiasm for learning about space technology and satellite missions!
+2. **Commit Messages**:
+   - Use present tense ("Add feature" not "Added feature")
+   - First line is a summary (max 50 chars)
+   - Include the component/subsystem in square brackets, e.g., `[sensors] Add temperature calibration`
+   - Reference issue numbers when applicable: `#123`
 
-### Joining Our Team
+3. **Pull Requests**:
+   - Create PRs for all substantial changes
+   - Request reviews from at least one team member
+   - PRs should include testing evidence
+   - Link to relevant issues
 
-We have a selection process for new team members interested in participating in our CanSat competitions. However, anyone is welcome to:
+### File Naming Conventions
 
-- Follow our public repositories and progress
-- Attend our public events and demonstrations
-- Connect with us on social media for updates
+- Use lowercase with hyphens for spaces (`temperature-sensor.py`)
+- Include date in reports (`2025-03-15-progress-report.pdf`)
+- Version firmware with semantic versioning (`v1.2.3`)
 
-If you're interested in becoming a team member:
+### Documentation Standards
 
-1. Contact us through our social media channels or email
-2. Inquire about upcoming selection periods
-3. Prepare to showcase your interest and relevant skills
+- All repositories must have a README.md
+- Use Markdown for text documentation
+- LaTeX for formal reports and papers
+- Document code with docstrings and comments
+- Include circuit diagrams for hardware
 
-### Repository Access
+## Development Environment Setup
 
-Some of our repositories are private and accessible only to team members. If you're a team member:
+### Software Requirements
 
-```bash
-# Clone our public CanSat2024 repository
-git clone https://github.com/CDOSR/CanSat2024
+#### Python Development
+1. Install Python 3.11 or newer
+2. Set up a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
 
-# For private repositories, you'll need to be added as a collaborator
-# then you can clone them with:
-git clone https://github.com/CDOSR/CanSat2025.git
-```
+#### Arduino/ESP32 Development
+1. Install Arduino IDE or PlatformIO
+2. Required libraries:
+   - Adafruit Sensor
+   - Adafruit BME280
+   - TinyGPS++
+   - RadioHead
 
-## Project Structure
+#### PCB Design
+1. KiCad 7.0 or newer or Autodesk Eagle
+2. Our component libraries (available in Document-templates)
 
-Our organization hosts several repositories:
+### Hardware Testing
 
-- **CanSat2024**: Our public repository for the 2024 CanSat competition (Python)
-- **CanSat2025**: Our current competition repository (Python, Private)
-- **Document-templates**: LaTeX templates for project documentation (TeX, Private)
+1. Standard test procedures are documented in `/documentation/testing/`
+2. Log all test results in the appropriate data folder
+3. Include photos of hardware tests when possible
 
-## Features
+## Internal Resources
 
-- **CanSat Competitions**: Annual participation in national and international CanSat competitions
-- **Python Development**: Building data collection and analysis software in Python
-- **Hardware Engineering**: Design and assembly of satellite components and sensors
-- **Documentation**: Creating comprehensive technical documentation using LaTeX templates
-- **Team-based Learning**: Collaborative problem-solving in a supportive environment
+- [Team Drive](https://drive.example.com/team) - Shared documents and resources
+- [Wiki](https://github.com/CoderDojoOradeaSpaceRobotics/CanSat2025/wiki) - Extended documentation
+- [Issue Tracker](https://github.com/orgs/CoderDojoOradeaSpaceRobotics/projects) - Project management
+- [LaTeX Templates](https://github.com/CoderDojoOradeaSpaceRobotics/Document-templates) - Standard document formats
 
-## Technologies
+## Communication
 
-### Hardware
-- Microcontrollers: Arduino, ESP32, STM32, Raspberry Pi
-- Sensors: Pressure, temperature, GPS, IMU, and more
-- Communications: Radio frequency modules, LoRa
-- Power: Battery management, solar panels
-
-### Software
-- Programming Languages: Python, C/C++
-- Data Analysis: NumPy, Pandas, Matplotlib
-- Documentation: LaTeX, Markdown
-- Version Control: Git/GitHub
-
-## Contributing
-
-Our repositories are maintained exclusively by official team members. We do not accept external pull requests or contributions to our codebase.
-
-If you're interested in our work:
-- You can follow our public repositories
-- Attend our public events and demonstrations
-- Connect with us on social media for updates
-
-For those interested in becoming official team members, please see the [Joining Our Team](#joining-our-team) section.
-
-## Community
-
-- Follow us on [X/Twitter](https://x.com/CoderDojoOradea) and [BlueSky](https://bsky.app/profile/coderdojooradea.bsky.social)
-- Subscribe to our [YouTube Channel](https://www.youtube.com/@coderdojooradea5947)
-
-## Achievements
-
-<p align="center">
-  <img src="assets/images/timeline.png" alt="CoderDojo Oradea Space Robotics Program Timeline" width="100%"/>
-</p>
-
-Our team has accumulated numerous awards and achievements since our founding:
-
-### Rover Competitions
-- 🏆 First place in the inaugural rover competition (2018)
-- 🏆 Victory in national Exo-Ro competition for rover design (2021)
-
-### CanSat Competitions
-- 🥇 "Best CanSat" award at Romanian national competition (2019)
-- 🥈 "Highest Technical Achievement" award at National CanSat (2020)
-- 🥇 "Best CanSat" award again at Romanian CanSat competition (2021)
-- 🥈 "Highest Technical Achievement" award again at National CanSat competition (2022)
-- 🥈 2nd place in ROSPIN's RCRC (Romanian Cansat/Rocketry Competition) (2023)
-- 🥇 "Best CanSat" award for the third time at Romanian National CanSat Finals (2024)
-
-### Other Space Competitions
-- 🌙 Top 10 finish in ESA's Mooncamp competition (lunar base design) (2020)
-- 🚀 First phase winner of ROSPIN School for two-stage rocket design (2023)
-- 🥉 3rd place in ROSPIN School 2024-2025 edition (2024)
-- 🥈 2nd place at Qube2Space competition (3rd edition) (2024)
-
-### International Recognition
-- 🇪🇺 Qualification for European CanSat Finals in Italy (2019)
-- 🇪🇺 Participation in Virtual European CanSat Finals (2021)
-- 🇪🇺 First-time qualification for EUSDC (European Space Settlement Design) (2023)
-- 🇪🇺 Participated in ROSDC and EUSDC (2024)
-- 🛰️ Invitation to "Space Engineer for a Day" event at ESA headquarters (2024)
-
+- Technical discussions: GitHub Issues
+- Quick team coordination: Discord
+- Weekly status: Team meetings (minutes in Drive)
+- External communications: Email
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+All our repositories are licensed under the MIT License unless otherwise specified.
+
+---
 
 <p align="center">
-  Made with ❤️ by CoderDojo Oradea
+  <b>For Team Members Only</b><br>
+  This documentation is intended for internal use by CoderDojo Oradea Space Robotics team members.
 </p>
