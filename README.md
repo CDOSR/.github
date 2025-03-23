@@ -136,9 +136,9 @@ Our team has accumulated numerous awards and achievements since our founding:
 
 ### CanSat Competitions
 - 🥇 "Best CanSat" award at Romanian national competition (2019)
-- 🏅 "Highest Technical Achievement" award at National CanSat (2020)
+- 🥈 "Highest Technical Achievement" award at National CanSat (2020)
 - 🥇 "Best CanSat" award again at Romanian CanSat competition (2021)
-- 🏅 "Highest Technical Achievement" award again at National CanSat competition (2022)
+- 🥈 "Highest Technical Achievement" award again at National CanSat competition (2022)
 - 🥈 2nd place in ROSPIN's RCRC (Romanian Cansat/Rocketry Competition) (2023)
 - 🥇 "Best CanSat" award for the third time at Romanian National CanSat Finals (2024)
 
