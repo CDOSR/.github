@@ -1,6 +1,6 @@
 # CoderDojo Oradea Space Robotics
 
-![CoderDojo Oradea Logo](https://via.placeholder.com/150)
+<img src="assets/images/logo.png" alt="CoderDojo Oradea Space Robotics Logo" width="200"/>
 
 ## Overview
 
@@ -102,11 +102,6 @@ For those interested in becoming official team members, please see the [Joining 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-CoderDojo Oradea Space Robotics - [coderdojooradea@gmail.com](mailto:coderdojooradea@gmail.com)
----
 
 <p align="center">
   Made with ❤️ by CoderDojo Oradea
