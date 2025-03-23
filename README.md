@@ -6,12 +6,19 @@
 
 Welcome to the CoderDojo Oradea Space Robotics project! This repository contains resources, code, and documentation for our space robotics program designed to introduce young minds to the exciting world of robotics with a focus on space exploration applications.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/CanSat-Competition-blue" alt="CanSat Competition"/>
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License"/>
+  <img src="https://img.shields.io/badge/Location-Oradea,%20Romania-orange" alt="Oradea, Romania"/>
+</p>
+
 ## Table of Contents
 
 - [About](#about)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Features](#features)
+- [Technologies](#technologies)
 - [Contributing](#contributing)
 - [Community](#community)
 - [License](#license)
@@ -25,6 +32,10 @@ CoderDojo Oradea Space Robotics is an educational initiative based in Oradea, Ro
 
 To empower the next generation of space engineers and scientists by providing hands-on experience with CanSat development, data collection, and analysis in an accessible, engaging, and collaborative environment.
 
+### What is a CanSat?
+
+A CanSat is a simulation of a real satellite integrated within the volume and shape of a soft drink can. The challenge for students is to fit all the major subsystems found in a satellite, such as power, sensors, and communications, into this minimal volume. The CanSat is then launched to an altitude of about one kilometer and deployed from a rocket, drone, or balloon, after which it carries out its mission as it descends back to Earth.
+
 ## Getting Started
 
 ### Prerequisites
@@ -37,8 +48,6 @@ To empower the next generation of space engineers and scientists by providing ha
   - Raspberry Pi
 - Interest in electronics, sensors, and data collection
 - Enthusiasm for learning about space technology and satellite missions!
-
-## Getting Started
 
 ### Joining Our Team
 
@@ -83,6 +92,20 @@ Our organization hosts several repositories:
 - **Documentation**: Creating comprehensive technical documentation using LaTeX templates
 - **Team-based Learning**: Collaborative problem-solving in a supportive environment
 
+## Technologies
+
+### Hardware
+- Microcontrollers: Arduino, ESP32, STM32, Raspberry Pi
+- Sensors: Pressure, temperature, GPS, IMU, and more
+- Communications: Radio frequency modules, LoRa
+- Power: Battery management, solar panels
+
+### Software
+- Programming Languages: Python, C/C++
+- Data Analysis: NumPy, Pandas, Matplotlib
+- Documentation: LaTeX, Markdown
+- Version Control: Git/GitHub
+
 ## Contributing
 
 Our repositories are maintained exclusively by official team members. We do not accept external pull requests or contributions to our codebase.
@@ -96,8 +119,14 @@ For those interested in becoming official team members, please see the [Joining 
 
 ## Community
 
-- Follow us on [Z](https://x.com/CoderDojoOradea) and [BlueSky] (https://bsky.app/profile/coderdojooradea.bsky.social)
+- Follow us on [X/Twitter](https://x.com/CoderDojoOradea) and [BlueSky](https://bsky.app/profile/coderdojooradea.bsky.social)
 - Subscribe to our [YouTube Channel](https://www.youtube.com/@coderdojooradea5947)
+
+## Achievements
+
+- 🏆 Participated in the 2024 European CanSat Competition
+- 🚀 Successfully designed, built, and launched multiple CanSat prototypes
+- 🌟 Engaged local schools and communities in space science education
 
 ## License
 
