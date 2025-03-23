@@ -124,9 +124,37 @@ For those interested in becoming official team members, please see the [Joining 
 
 ## Achievements
 
-- 🏆 Participated in the 2024 European CanSat Competition
-- 🚀 Successfully designed, built, and launched multiple CanSat prototypes
-- 🌟 Engaged local schools and communities in space science education
+<p align="center">
+  <img src="assets/images/timeline.png" alt="CoderDojo Oradea Space Robotics Program Timeline" width="100%"/>
+</p>
+
+Our team has accumulated numerous awards and achievements since our founding:
+
+### Rover Competitions
+- 🏆 First place in the inaugural rover competition (2018)
+- 🏆 Victory in national Exo-Ro competition for rover design (2021)
+
+### CanSat Competitions
+- 🥇 "Best CanSat" award at Romanian national competition (2019)
+- 🏅 "Highest Technical Achievement" award at National CanSat (2020)
+- 🥇 "Best CanSat" award again at Romanian CanSat competition (2021)
+- 🏅 "Highest Technical Achievement" award again at National CanSat competition (2022)
+- 🥈 2nd place in ROSPIN's RCRC (Romanian Cansat/Rocketry Competition) (2023)
+- 🥇 "Best CanSat" award for the third time at Romanian National CanSat Finals (2024)
+
+### Other Space Competitions
+- 🌙 Top 10 finish in ESA's Mooncamp competition (lunar base design) (2020)
+- 🚀 First phase winner of ROSPIN School for two-stage rocket design (2023)
+- 🥉 3rd place in ROSPIN School 2024-2025 edition (2024)
+- 🥈 2nd place at Qube2Space competition (3rd edition) (2024)
+
+### International Recognition
+- 🇪🇺 Qualification for European CanSat Finals in Italy (2019)
+- 🇪🇺 Participation in Virtual European CanSat Finals (2021)
+- 🇪🇺 First-time qualification for EUSDC (European Space Settlement Design) (2023)
+- 🇪🇺 Participated in ROSDC and EUSDC (2024)
+- 🛰️ Invitation to "Space Engineer for a Day" event at ESA headquarters (2024)
+
 
 ## License
 
