@@ -1,6 +1,6 @@
 # CoderDojo Oradea Space Robotics
 
-<img src="assets/images/logo.png" alt="CoderDojo Oradea Space Robotics Logo" width="200"/>
+<img src="../assets/images/logo.png" alt="CoderDojo Oradea Space Robotics Logo" width="200"/>
 
 ## Overview
 
@@ -126,7 +126,7 @@ For those interested in becoming official team members, please see the [Joining 
 ## Achievements
 
 <p align="center">
-  <img src="assets/images/timeline.png" alt="CoderDojo Oradea Space Robotics Program Timeline" width="100%"/>
+  <img src="../assets/images/timeline.png" alt="CoderDojo Oradea Space Robotics Program Timeline" width="100%"/>
 </p>
 
 Our team has accumulated numerous awards and achievements since our founding:
