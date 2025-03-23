@@ -96,7 +96,7 @@ For those interested in becoming official team members, please see the [Joining 
 
 ## Community
 
-- Follow us on [Z](https://x.com/CoderDojoOradea) and [BlueSky[ (https://bsky.app/profile/coderdojooradea.bsky.social)
+- Follow us on [Z](https://x.com/CoderDojoOradea) and [BlueSky] (https://bsky.app/profile/coderdojooradea.bsky.social)
 - Subscribe to our [YouTube Channel](https://www.youtube.com/@coderdojooradea5947)
 
 ## License
@@ -105,10 +105,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-CoderDojo Oradea Space Robotics - [example@email.com](mailto:example@email.com)
-
-Project Link: [https://github.com/yourusername/coderdojo-oradea-space-robotics](https://github.com/yourusername/coderdojo-oradea-space-robotics)
-
+CoderDojo Oradea Space Robotics - [coderdojooradea@gmail.com](mailto:coderdojooradea@gmail.com)
 ---
 
 <p align="center">
