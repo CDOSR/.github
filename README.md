@@ -19,6 +19,7 @@ Welcome to the CoderDojo Oradea Space Robotics project! This repository contains
 - [Project Structure](#project-structure)
 - [Features](#features)
 - [Technologies](#technologies)
+- [Achievements](#achievements)
 - [Contributing](#contributing)
 - [Community](#community)
 - [License](#license)
@@ -69,11 +70,11 @@ Some of our repositories are private and accessible only to team members. If you
 
 ```bash
 # Clone our public CanSat2024 repository
-git clone https://github.com/CoderDojoOradeaSpaceRobotics/CanSat2024.git
+git clone https://github.com/CDOSR/CanSat2024
 
 # For private repositories, you'll need to be added as a collaborator
 # then you can clone them with:
-git clone https://github.com/CoderDojoOradeaSpaceRobotics/CanSat2025.git
+git clone https://github.com/CDOSR/CanSat2025.git
 ```
 
 ## Project Structure
